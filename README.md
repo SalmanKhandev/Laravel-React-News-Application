@@ -13,8 +13,6 @@ News Web Application using Laravel and React Js
 
 ## Docker based Configuration
 
-Copy `.env.example` and rename it to `.env`.
-
 ```bash
 docker-compose build
 docker-compose up
@@ -68,7 +66,7 @@ For the Front end:
 For backend:
 
 ```bash
-    cp .env.example .env
+  cp .env.example .env
 	composer install
 	php artisan key:generate
 	php artisan migrate
@@ -77,8 +75,8 @@ For backend:
 
 # News APIs Setup
 
-1. go to newsApi and get the key and give into .env NEWS_API
-2. go and signup into the guardian api and you will receive key into email paste into .env THE_GUARDIAN_API
+1. go to https://newsapi.org/ and get the key and give into .env NEWS_API
+2. go and signup into the https://open-platform.theguardian.com/ and you will receive key into email paste into env THE_GUARDIAN_API
 3. go to https://developer.nytimes.com/apis and signup and select Article Search API
    make app there and receive token and paste into .env NYTIMES
 
