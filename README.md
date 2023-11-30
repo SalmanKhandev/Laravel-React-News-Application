@@ -59,18 +59,18 @@ cat logs/laravel.log
 For the Front end:
 
 ```bash
-	npm install
-	npm build
+npm install
+npm build
 ```
 
 For backend:
 
 ```bash
-  cp .env.example .env
-	composer install
-	php artisan key:generate
-	php artisan migrate
-	php artisan seed
+cp .env.example .env
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan seed
 ```
 
 # News APIs Setup
